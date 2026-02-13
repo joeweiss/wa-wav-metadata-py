@@ -4,7 +4,7 @@ Python script to extract metadata from Wildlife Acoustics WAV files (SM4, SM3, e
 
 ## Overview
 
-Wildlife Acoustics recorders embed metadata in a custom `wamd` (Wildlife Acoustics MetaData) RIFF chunk within WAV files. This script parses that proprietary format to extract:
+Wildlife Acoustics recorders embed metadata in a custom `wamd` (Wildlife Acoustics MetaData) RIFF chunk within WAV files. This script parses that format to extract:
 
 - **GPS Coordinates** (latitude/longitude)
 - **Recording DateTime** (with timezone)
@@ -70,4 +70,4 @@ The `wamd` chunk uses a proprietary Wildlife Acoustics format with these tag IDs
 
 ## License
 
-Public domain / MIT
+Apache License 2.0 - see [LICENSE](LICENSE) file for details.
